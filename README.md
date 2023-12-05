@@ -25,7 +25,9 @@
 Where a = gradient and log(B) = y-intercept 
 
 3) Following this linear model, I can find the values of a and B:
+
    exponent (_a_) = 1.515
+
    scaling factor (_B_) = 1182
 
 ## Instructions
