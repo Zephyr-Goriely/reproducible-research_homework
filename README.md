@@ -15,7 +15,9 @@
 
 ## Question 5
 
-The CSV table containing the dataset of dsDNA viruses has 13 columns and 33 rows
+1) The CSV table containing the dataset of dsDNA viruses has 13 columns and 33 rows
+
+2) The data is currently under the relationship explained by this equation: **$`V = \beta L^{\alpha}`$**. This relationship is an exponential, and in order to fit a linear model to the data, I can use a logarithmic transformation.
 
 
 ## Instructions
