@@ -20,9 +20,13 @@
 2) The data is currently under the relationship explained by this equation: **$`V = \beta L^{\alpha}`$**. This relationship is an exponential. By taking a log transformation of both sides of the equation, a linear relationship can be made between log(V) and log(L):
    **$`V = \beta L^{\alpha}`$**
    
-   **$`log(V) = log({\beta}) a*log(L)`$**
+   **$`log(V) = log({\beta}) + a*log(L)`$**
 
 Where a = gradient and log(B) = y-intercept 
+
+3) Following this linear model, I can find the values of a and B:
+   exponent (_a_) = 1.515
+   scaling factor (_B_) = 1182
 
 ## Instructions
 
