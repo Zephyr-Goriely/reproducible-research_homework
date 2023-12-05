@@ -89,6 +89,8 @@ ggplot(data = data_subset1, aes(x = log_L, y = log_V)) +
        y = "log [Virion volume (nm3)]") +
   theme_bw()
 ```
+![graph_plot](https://github.com/Zephyr-Goriely/reproducible-research_homework/assets/150150268/85696c77-cf7f-4bf2-86e4-8ecb4b46243a)
+
 
 ## Instructions
 
