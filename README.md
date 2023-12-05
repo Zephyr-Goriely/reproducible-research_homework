@@ -22,6 +22,7 @@
    
    **$`log(V) = log({\beta}) a*log(L)`$**
 
+Where a = gradient and log(B) = y-intercept 
 
 ## Instructions
 
