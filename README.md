@@ -32,6 +32,14 @@ Where a = gradient and log(B) = y-intercept
 
    The P-values for both these values indicate that they are both significant as they are much smaller than 0.05
 
+4) Comparison with the values shown in table 2 from the paper:
+
+   exponent $\alpha$ = **1.43(1.26-1.6)**
+
+   scaling factor $\beta$ = **2075(1185-3571)**
+
+The exponent value finds the same value in comparison to the paper (falling within the error margins). The scaling factor falls just short of the lower error margin from the paper. However, these values are very similar.
+
 ## Instructions
 
 The homework for this Computer skills practical is divided into 5 questions for a total of 100 points (plus an optional bonus question worth 10 extra points). First, fork this repo and make sure your fork is made **Public** for marking. Answers should be added to the # INSERT ANSWERS HERE # section above in the **README.md** file of your forked repository.
