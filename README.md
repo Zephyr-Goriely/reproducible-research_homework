@@ -18,13 +18,14 @@
 1) The CSV table containing the dataset of dsDNA viruses has 13 columns and 33 rows
 
 2) The data is currently under the relationship explained by this equation: **$`V = \beta L^{\alpha}`$**. This relationship is an exponential. By taking a **log transformation** of both sides of the equation, a linear relationship can be made between log(V) and log(L):
+
    **$`V = \beta L^{\alpha}`$**
    
    **$`log(V) = log({\beta}) + a*log(L)`$**
 
-Where a = gradient and log(B) = y-intercept 
+   Where a = gradient and log(B) = y-intercept 
 
-3) Following this linear model, I can find the values of a and B:
+4) Following this linear model, I can find the values of a and B:
 
    exponent $\alpha$ = **1.515**, with a P-value of **2.3e-10**
 
@@ -32,7 +33,7 @@ Where a = gradient and log(B) = y-intercept
 
    The P-values for both these values indicate that they are both significant as they are much smaller than 0.05
 
-4) Comparison with the values shown in table 2 from the paper:
+5) Comparison with the values shown in table 2 from the paper:
 
    exponent $\alpha$ = **1.43(1.26-1.6)**
 
