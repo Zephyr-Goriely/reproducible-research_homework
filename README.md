@@ -42,12 +42,49 @@ The exponent value finds the same value in comparison to the paper (falling with
 
 5) The data to plot the graph is shown below:
 
+```{r}
+virus_data <- read_csv("question-5-data/Cui_etal2014.csv")
+
+install.packages("dplyr")
+install.packages("ggplot2")
+install.packages("janitor")
+
+library(dplyr)
+library(ggplot2)
+library(janitor)
+
+summary(virus_data)
+
+clean_column_names <- function(virus_data) {
+  virus_data %>%
+    clean_names()
+}
+
+remove_empty_columns_rows <- function(virus_data) {
+  virus_data %>%
+    remove_empty(c("rows", "cols"))
+}
+
+virus_clean <- virus_data %>%
+  clean_column_names() %>%
+  remove_empty_columns_rows()
+
+head(virus_clean)
+colnames(virus_clean)
+
+data_subset1 <- virus_clean %>% mutate(log_V = log(virion_volume_nm_nm_nm)) %>% mutate(log_L = log(genome_length_kb))
+linear_model <- lm(data = data_subset1, log_V ~ log_L)
+summary(linear_model)
+
+exp(7.075)
+
 ggplot(data = data_subset1, aes(x = log_L, y = log_V)) +
   geom_point() +
   geom_smooth(method = lm, colour = "blue") +
   labs(x = "log [Genome length(kb)]", 
        y = "log [Virion volume (nm3)]") +
   theme_bw()
+```
 
 ## Instructions
 
