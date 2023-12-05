@@ -6,6 +6,10 @@ In executing this code, two graphs are produced which seem to demonstrate the pa
 
 The term "random seeds" usually refers to the initial value used to initialize a pseudorandom number generator. This is an algorithm that generates a sequence of numbers that appears to be random but is actually deterministic. Given the same initial seed, a PRNG will produce the same sequence of "random" numbers. Therefore, in the context of this code, the a random seed is used to generate the apparent random behaviour that is observed in the plotted graphs. A new random seed can be generated with each use of the function 'random_walk' which has been constructed to generate a 'random' sequence of motion. The function achieves this by setting parameters such that each next step in the sequence will orient in a new direction and assume a new coordinate (x,y) on the plot. 'data1' and 'data2' are both defined using this function, and everytime these datasets are used, they will produce the same behaviour. If a new dataset was created (e.g., data3 <- random_walk(500)), or the original datasets are redefined (by running the object code again) then an entirely new 'random' behaviour would be observed. In this way, random seeds can be used to establish plots of random behaviour, that can be recalled and compared.  
 
+Below are images attached to show a comparison between the original random_walk code and the new brownian motion code that now uses random seeds to set predetermined brownian motion behaviours:
+
+
+
 ## Instructions
 
 The homework for this Computer skills practical is divided into 5 questions for a total of 100 points (plus an optional bonus question worth 10 extra points). First, fork this repo and make sure your fork is made **Public** for marking. Answers should be added to the # INSERT ANSWERS HERE # section above in the **README.md** file of your forked repository.
