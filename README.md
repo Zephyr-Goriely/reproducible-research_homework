@@ -20,7 +20,7 @@
 2) The data is currently under the relationship explained by this equation: **$`V = \beta L^{\alpha}`$**. This relationship is an exponential. By taking a log transformation of both sides of the equation, a linear relationship can be made between log(V) and log(L):
    **$`V = \beta L^{\alpha}`$**
    
-   **$`log(V) = log{\beta} a*log(L)`$**
+   **$`log(V) = log({\beta}) a*log((L))`$**
 
 
 ## Instructions
