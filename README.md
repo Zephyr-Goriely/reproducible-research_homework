@@ -2,7 +2,7 @@
 
 ## Question 4
 
-1) In executing this code, two graphs are produced which seem to demonstrate the path of random motion from time 1 to 500. This motion is plotted on a two dimensional field which is represented by the x and y axes of the graph. Despite the functions and graphing code being the same, with different randomised walks in each dataset, the two graphs show individually unique and random motion. The legend allows for interpretation of where the path starts and finishes. This is important as without the colour spectrum representing the chronological motion, overlaps in the path could lead to confusion. 
+1) In executing this code, two graphs are produced which seem to demonstrate the path of random motion from time 1 to 500. This motion is plotted on a two dimensional field which is represented by the x and y axes of the graph. Despite the functions and graphing code being the same, with different randomised walks in each dataset, the two graphs show individually unique and random motion. The legend allows for interpretation of where the path starts and finishes. This is important as without the colour spectrum representing the chronological motion, overlaps in the path could lead to confusion.
 
 2) The term "random seeds" usually refers to the initial value used to initialize a pseudorandom number generator. This is an algorithm that generates a sequence of numbers that appears to be random but is actually deterministic. Given the same initial seed, a PRNG will produce the same sequence of "random" numbers. Changing the seed will result in a completely different 'randomised' behaviour that is due to a different initial value. 
 
