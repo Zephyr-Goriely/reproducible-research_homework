@@ -28,7 +28,7 @@ Where a = gradient and log(B) = y-intercept
 
    exponent (_a_) = **1.515**, with a P-value of **2.3e-10**
 
-   scaling factor ({_\beta_}) = **1182** with a P-value of **6.4e-10**
+   scaling factor ({\beta}) = **1182** with a P-value of **6.4e-10**
 
    The P-values for both these values indicate that they are both significant as they are much smaller than 0.05
 
