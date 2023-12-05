@@ -43,8 +43,10 @@ The exponent value finds the same value in comparison to the paper (falling with
 5) The data to plot the graph is shown below:
 
 ```{r}
+#Loading in the dataset under the name 'virus_data'
 virus_data <- read_csv("question-5-data/Cui_etal2014.csv")
 
+#Installing and loading in the necessary packages
 install.packages("dplyr")
 install.packages("ggplot2")
 install.packages("janitor")
@@ -53,8 +55,10 @@ library(dplyr)
 library(ggplot2)
 library(janitor)
 
+# Investigating the virus dataset
 summary(virus_data)
 
+# Defining functions in order to clean up the dataset for later use. The first function is set to rename the column names so they can be used in computer readable language (lower and snake case). The second function is set to remove all empty columns and rows:
 clean_column_names <- function(virus_data) {
   virus_data %>%
     clean_names()
@@ -64,20 +68,20 @@ remove_empty_columns_rows <- function(virus_data) {
   virus_data %>%
     remove_empty(c("rows", "cols"))
 }
-
+# Creating a new dataset with the cleaned data
 virus_clean <- virus_data %>%
   clean_column_names() %>%
   remove_empty_columns_rows()
 
 head(virus_clean)
 colnames(virus_clean)
+# Creating a data subset so that I can mutate the subject variables through a logarithmic transformation. This is done so that a linear model can be ran:
 
 data_subset1 <- virus_clean %>% mutate(log_V = log(virion_volume_nm_nm_nm)) %>% mutate(log_L = log(genome_length_kb))
 linear_model <- lm(data = data_subset1, log_V ~ log_L)
 summary(linear_model)
 
-exp(7.075)
-
+# Below is the code to produce a graph investigating the linear relationship between the log transformed variables to match the graph shown in the intructions of the exercise:
 ggplot(data = data_subset1, aes(x = log_L, y = log_V)) +
   geom_point() +
   geom_smooth(method = lm, colour = "blue") +
