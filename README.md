@@ -8,6 +8,8 @@ The term "random seeds" usually refers to the initial value used to initialize a
 
 Below are images attached to show a comparison between the original random_walk code and the new brownian motion code that now uses random seeds to set predetermined brownian motion behaviours:
 
+<img width="1260" alt="code_comparison_1" src="https://github.com/Zephyr-Goriely/reproducible-research_homework/assets/150150268/f791f61f-fb4a-49ea-b542-2af3f85d4f20">
+<img width="1259" alt="code_comparison_2" src="https://github.com/Zephyr-Goriely/reproducible-research_homework/assets/150150268/bdc8486c-8c55-4576-863d-e7e6bbd8bb42">
 
 
 ## Instructions
