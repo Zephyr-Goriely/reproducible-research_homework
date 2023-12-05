@@ -40,6 +40,15 @@ Where a = gradient and log(B) = y-intercept
 
 The exponent value finds the same value in comparison to the paper (falling within the error margins). The scaling factor falls just short of the lower error margin from the paper. However, these values are very similar.
 
+5) The data to plot the graph is shown below:
+
+ggplot(data = data_subset1, aes(x = log_L, y = log_V)) +
+  geom_point() +
+  geom_smooth(method = lm, colour = "blue") +
+  labs(x = "log [Genome length(kb)]", 
+       y = "log [Virion volume (nm3)]") +
+  theme_bw()
+
 ## Instructions
 
 The homework for this Computer skills practical is divided into 5 questions for a total of 100 points (plus an optional bonus question worth 10 extra points). First, fork this repo and make sure your fork is made **Public** for marking. Answers should be added to the # INSERT ANSWERS HERE # section above in the **README.md** file of your forked repository.
