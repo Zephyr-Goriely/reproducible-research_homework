@@ -2,16 +2,20 @@
 
 ## Question 4
 
-In executing this code, two graphs are produced which seem to demonstrate the path of random motion from time 1 to 500. This motion is plotted on a two dimensional field which is represented by the x and y axes of the graph. Despite the functions and graphing code being the same, with different randomised walks in each dataset, the two graphs show individually unique and random motion. The legend allows for interpretation of where the path starts and finishes. This is important as without the colour spectrum representing the chronological motion, overlaps in the path could lead to confusion. 
+1) In executing this code, two graphs are produced which seem to demonstrate the path of random motion from time 1 to 500. This motion is plotted on a two dimensional field which is represented by the x and y axes of the graph. Despite the functions and graphing code being the same, with different randomised walks in each dataset, the two graphs show individually unique and random motion. The legend allows for interpretation of where the path starts and finishes. This is important as without the colour spectrum representing the chronological motion, overlaps in the path could lead to confusion. 
 
-The term "random seeds" usually refers to the initial value used to initialize a pseudorandom number generator. This is an algorithm that generates a sequence of numbers that appears to be random but is actually deterministic. Given the same initial seed, a PRNG will produce the same sequence of "random" numbers. Changing the seed will result in a completely different 'randomised' behaviour that is due to a different initial value. 
+2) The term "random seeds" usually refers to the initial value used to initialize a pseudorandom number generator. This is an algorithm that generates a sequence of numbers that appears to be random but is actually deterministic. Given the same initial seed, a PRNG will produce the same sequence of "random" numbers. Changing the seed will result in a completely different 'randomised' behaviour that is due to a different initial value. 
 
-Therefore, in the context of this code, a random seed can be used to generate the apparent random behaviour that is observed in the plotted graphs. A new random seed can be generated with each use of the function 'random_walk' which has been changed to generate a 'random' sequence of motion that is asigned to a specific seed. The function achieves this by setting parameters such that each next step in the sequence will orient in a new direction and assume a new coordinate (x,y) on the plot. 'data1' and 'data2' are both defined using this function, and everytime these datasets are used, they will produce the same behaviour because their seed is set. If a new dataset was created (e.g., data3 <- random_walk(500, seed = 44)), or the original datasets are redefined (by running the object code again with new seed values) then an entirely new 'random' behaviour would be observed. In this way, random seeds can be used to establish plots of random behaviour, that can be recalled and compared.  
+3) Therefore, in the context of this code, a random seed can be used to generate the apparent random behaviour that is observed in the plotted graphs. A new random seed can be generated with each use of the function 'random_walk' which has been changed to generate a 'random' sequence of motion that is asigned to a specific seed. The function achieves this by setting parameters such that each next step in the sequence will orient in a new direction and assume a new coordinate (x,y) on the plot. 'data1' and 'data2' are both defined using this function, and everytime these datasets are used, they will produce the same behaviour because their seed is set. If a new dataset was created (e.g., data3 <- random_walk(500, seed = 44)), or the original datasets are redefined (by running the object code again with new seed values) then an entirely new 'random' behaviour would be observed. In this way, random seeds can be used to establish plots of random behaviour, that can be recalled and compared.  
 
-Below are images attached to show a comparison between the original random_walk code and the new brownian motion code that now uses random seeds to set predetermined brownian motion behaviours:
+4) Below are images attached to show a comparison between the original random_walk code and the new brownian motion code that now uses random seeds to set predetermined brownian motion behaviours:
 
 <img width="1260" alt="code_comparison_1" src="https://github.com/Zephyr-Goriely/reproducible-research_homework/assets/150150268/f791f61f-fb4a-49ea-b542-2af3f85d4f20">
 <img width="1259" alt="code_comparison_2" src="https://github.com/Zephyr-Goriely/reproducible-research_homework/assets/150150268/bdc8486c-8c55-4576-863d-e7e6bbd8bb42">
+
+## Question 5
+
+The CSV table containing the dataset of dsDNA viruses has 13 columns and 33 rows
 
 
 ## Instructions
