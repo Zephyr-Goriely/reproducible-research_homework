@@ -94,7 +94,8 @@ ggplot(data = data_subset1, aes(x = log_L, y = log_V)) +
        y = "log [Virion volume (nm3)]") +
   theme_bw()
 ```
-![graph_plot](https://github.com/Zephyr-Goriely/reproducible-research_homework/assets/150150268/85696c77-cf7f-4bf2-86e4-8ecb4b46243a)
+![graph_plot](https://github.com/hiddenuser3/reproducible-research_homework/assets/150150268/b9e5d878-5923-48d4-90e0-00f7e417a09a)
+
 
 6) The estimated volume of a 300kb dsDNA virus can be calculated following the equation above
     **$`V = \beta L^{\alpha}`$** using the estimated values of $\beta$ and $\alpha$:
