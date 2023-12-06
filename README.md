@@ -106,6 +106,8 @@ Reproducability in the context of scientific research refers to the ability of a
 
 Repeatability is a similar but distinctly different concept and refers to the ability of consistent results to be obtained when researchers repeat an entire study. Repeating an entire study comprises the use of the same methods, design features and procedure framework of one study by independent work of different researchers. Differentiation from reproducability arises due to the fact that repeatability does not refer to the use of the same dataset, instruments or experimental conditions but still expects consistent results. When different conditions are applied to a set methodology in a study, consistent results would be expected if the original study is repeatable. This is because repeatability relies on the notion that when performed properly, the tested principles should always behave the same way.
 
+Git and GitHub are useful tools in ensuring that the reproducability and repeatability of work is enhanced. 
+
 ## Instructions
 
 The homework for this Computer skills practical is divided into 5 questions for a total of 100 points (plus an optional bonus question worth 10 extra points). First, fork this repo and make sure your fork is made **Public** for marking. Answers should be added to the # INSERT ANSWERS HERE # section above in the **README.md** file of your forked repository.
