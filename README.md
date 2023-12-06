@@ -100,6 +100,11 @@ ggplot(data = data_subset1, aes(x = log_L, y = log_V)) +
 
     **$`V = 1182*300^{1.515} = 6690463nm^3`$**
 
+## Bonus Question
+
+Reproducability in the context of scientific research refers to the ability of an experimental analysis to produce consistent results when repeated under the same conditions (using the same data, methods and code). The 'reproducible' work should be achieved by repetitions, independent of its completion by the original author or different researchers. Reproducible work is exemplified by a detailed annotation of the code and data used such that others can indpenently reproduce the same results with no need for further assistance. 
+
+Repeatability is a similar but distinctly different concept and refers to the ability of consistent results to be obtained when researchers repeat an entire study. Repeating an entire study comprises the use of the same methods, design features and procedure framework of one study by independent work of different researchers. Differentiation from reproducability arises due to the fact that repeatability does not refer to the use of the same dataset, instruments or experimental conditions but still expects consistent results. When different conditions are applied to a set methodology in a study, consistent results would be expected if the original study is repeatable. This is because repeatability relies on the notion that when performed properly, the tested principles should always behave the same way.
 
 ## Instructions
 
