@@ -112,7 +112,7 @@ Git and GitHub are useful tools in ensuring that the reproducability and repeata
 - Version control: By setting a platform where commits and branches can be tagged to specific versions, GitHub enables collaborators and other researchers to track the change in code and understand the progression of a project. This enhances the transparency of work and can provide the answer to any confusions that may arise when others investigate the public project.
 - Fork function: The ability to fork and clone Git repositories allows researchers to obtain a full copy of all of the documentation of a project. This allows them to efficinently replicate the work of another without affecting the original work.
 
-While the use of git and GitHub enhances reproducability and repeatability, there are some limitations that may deter researchers from using the platform. Perhaps the largest limitation to consider is the fact that as work is 
+While the use of git and GitHub enhances reproducability and repeatability, there are some limitations that may deter researchers from using the platform. Perhaps the largest limitation to consider is the fact that as work is submitted on this platform, it is openly accessible to the entire internet. Therefore, this may be problematic when data is sensitive, violating privacy concerns. Researchers must therefore first consider anonymysing their datasets before they can produce their work on GitHub. Additionally, without the proper protection, projects could be misused or manipulated without the owners consent. This may lead to further issues in analysis.
 
 ## Instructions
 
