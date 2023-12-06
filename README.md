@@ -13,8 +13,9 @@ Answered in the README.md in https://github.com/hiddenuser3/logistic_growth.git
 
 6) Below are images attached to show a comparison between the original random_walk code and the new brownian motion code that now uses random seeds to set predetermined brownian motion behaviours:
 
-<img width="1260" alt="code_comparison_1" src="https://github.com/Zephyr-Goriely/reproducible-research_homework/assets/150150268/f791f61f-fb4a-49ea-b542-2af3f85d4f20">
-<img width="1259" alt="code_comparison_2" src="https://github.com/Zephyr-Goriely/reproducible-research_homework/assets/150150268/bdc8486c-8c55-4576-863d-e7e6bbd8bb42">
+<img width="1260" alt="code_comparison_1" src="https://github.com/hiddenuser3/reproducible-research_homework/assets/150150268/0d694caa-bee8-4a53-b57d-36f9c4fe86b8">
+<img width="1259" alt="code_comparison_2" src="https://github.com/hiddenuser3/reproducible-research_homework/assets/150150268/d713449c-ffc6-4784-9313-880a7de33bf2">
+
 
 ## Question 5
 
