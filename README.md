@@ -1,5 +1,7 @@
 # Reproducible research: version control and R
 
+## Questions 1, 2, 3: Answered in the README.md in https://github.com/Zephyr-Goriely/logistic_growth.git
+
 ## Question 4
 
 1) In executing this code, two graphs are produced which seem to demonstrate the path of random motion from time 1 to 500. This motion is plotted on a two dimensional field which is represented by the x and y axes of the graph. This 'random' motion is directed by the 'random_walk' function which programms a consecutive sequence of coordinate positions such that at each next timestep, the path will progress in a random direction. This is made possible by using a 'for' loop where the 'angle' is reset with each time interval and given a new value so that the trend simulates brownian motion. Despite the functions and graphing code being the same, with different randomised walks in each dataset, the two graphs show individually unique and random motion. The legend allows for interpretation of where the path starts and finishes. This is important as without the colour spectrum representing the chronological motion, overlaps in the path could lead to confusion in direction. 
