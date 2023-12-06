@@ -1,7 +1,7 @@
 # Reproducible research: version control and R
 
 ## Questions 1, 2, 3: 
-Answered in the README.md in https://github.com/Zephyr-Goriely/logistic_growth.git
+Answered in the README.md in https://github.com/hiddenuser3/logistic_growth.git
 
 ## Question 4
 
