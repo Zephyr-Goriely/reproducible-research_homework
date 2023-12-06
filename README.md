@@ -106,7 +106,13 @@ Reproducability in the context of scientific research refers to the ability of a
 
 Repeatability is a similar but distinctly different concept and refers to the ability of consistent results to be obtained when researchers repeat an entire study. Repeating an entire study comprises the use of the same methods, design features and procedure framework of one study by independent work of different researchers. Differentiation from reproducability arises due to the fact that repeatability does not refer to the use of the same dataset, instruments or experimental conditions but still expects consistent results. When different conditions are applied to a set methodology in a study, consistent results would be expected if the original study is repeatable. This is because repeatability relies on the notion that when performed properly, the tested principles should always behave the same way.
 
-Git and GitHub are useful tools in ensuring that the reproducability and repeatability of work is enhanced. 
+Git and GitHub are useful tools in ensuring that the reproducability and repeatability of work is enhanced. There are multiple aspects that allow this:
+- Code sharing: Perhaps the most obvious use of GitHub is its role as a platform which hosts Git repositories. Researchers can make use of these public access repositories that are kept on a single online location to document their work, code and data so that collaborators can easily find and reproduce their work.
+- Discussion: GitHub serves a further purpose of problem resolution and discussion by providing researchers with a way of commenting on work in GitHub, promoting the flow of information and communcation between researchers.
+- Version control: By setting a platform where commits and branches can be tagged to specific versions, GitHub enables collaborators and other researchers to track the change in code and understand the progression of a project. This enhances the transparency of work and can provide the answer to any confusions that may arise when others investigate the public project.
+- Fork function: The ability to fork and clone Git repositories allows researchers to obtain a full copy of all of the documentation of a project. This allows them to efficinently replicate the work of another without affecting the original work.
+
+While the use of git and GitHub enhances reproducability and repeatability, there are some limitations that may deter researchers from using the platform. Perhaps the largest limitation to consider is the fact that as work is 
 
 ## Instructions
 
