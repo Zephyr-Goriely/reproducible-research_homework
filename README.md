@@ -88,8 +88,8 @@ summary(linear_model)
 
 # Below is the code to produce a graph investigating the linear relationship between the log transformed variables to match the graph shown in the intructions of the exercise:
 ggplot(data = data_subset1, aes(x = log_L, y = log_V)) +
-  geom_point() +
-  geom_smooth(method = lm, colour = "blue") +
+  geom_point() + #code to plot the data on the graph
+  geom_smooth(method = lm, colour = "blue") + #code to plot the regression line on the graph
   labs(x = "log [Genome length(kb)]", 
        y = "log [Virion volume (nm3)]") +
   theme_bw()
