@@ -43,7 +43,7 @@ Answered in the README.md in https://github.com/hiddenuser3/logistic_growth.git
 
    scaling factor $\beta$ = **2075(1185-3571)**
 
-The exponent value finds the same value in comparison to the paper (falling within the error margins). The scaling factor falls just short of the lower error margin from the paper. However, these values are very similar.
+The exponent value finds the same value in comparison to the paper (falling within the error margins) meaning the estimation is not significantly different from the true value. The scaling factor falls just short of the lower error margin from the paper meaning that the estimated scaling factor is significantly different to the true value. However, given the linear approximation, these values are very similar.
 
 5) The data to plot the graph is shown below:
 
